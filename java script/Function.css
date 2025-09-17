@@ -1,0 +1,25 @@
+.border{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+.box{
+    /* border: solid black 1px; */
+    padding: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(235, 235, 235);
+}
+.box button{
+    padding: 10px 20px;
+} 
+.reset-button{
+    display: grid;
+    justify-content: center;
+    padding-top: 5%;
+}
+#reset{
+    padding: 10px 20px;
+    border: none;
+    display: none;
+}

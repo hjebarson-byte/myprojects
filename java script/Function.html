@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Function.css">
+</head>
+
+<body>
+    <div class="border">
+        <div class="box" id="box-1">
+            <div>
+                <button onclick="myGreen()">click</button>
+            </div>
+        </div>
+        <div class="box" id="box-2">
+            <div>
+                <button onclick="myBlue()">click</button>
+            </div>
+        </div>
+        <div class="box" id="box-3">
+            <div>
+                <button onclick="myRed()">click</button>
+            </div>
+        </div>
+    </div>
+    <div class="reset-button" id="button">
+        <div>
+            <button id="reset" onclick="myResetButton()">Reset Button</button>
+        </div>
+    </div>
+</body>
+<script>
+    const myGreen = () => {
+        let color1 = document.getElementById("box-1")
+        let color2 = document.getElementById("box-2")
+        let color3 = document.getElementById("box-3")
+
+        color2.style.backgroundColor = "green"
+
+    }
+
+    const myBlue = () => {
+        let color3 = document.getElementById("box-3")
+        color3.style.backgroundColor = "red"
+    }
+
+    const myRed = () => {
+        let color1 = document.getElementById("box-1")
+        let btn = document.getElementById("reset")
+        color1.style.backgroundColor = "blue"
+
+        if (color1.style.backgroundColor == "blue") {
+            btn.style.display = "block"
+        }
+    }
+
+    const myResetButton = () => {
+        let color1 = document.getElementById("box-1")
+        let color2 = document.getElementById("box-2")
+        let color3 = document.getElementById("box-3")
+        let btn = document.getElementById("reset")
+        if (color1.style.backgroundColor == "blue") {
+            color1.style.backgroundColor = "grey"
+            color2.style.backgroundColor = "grey"
+            color3.style.backgroundColor = "grey"
+
+            btn.style.display = "none;"
+
+        }
+
+    }
+
+
+
+
+</script>
+
+</html>
