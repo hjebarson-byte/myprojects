@@ -1,0 +1,31 @@
+
+
+.color_red {
+    color:darkslateblue
+}
+.color_white {
+    color: darkred;
+}
+body {
+    background-image: url(./assets/images/Background\ Template-Page-3.png);
+    background-size: cover;
+}
+button {
+    color:blue
+}
+ul {
+    margin: auto;
+    display: block;
+    width:5%;
+}
+ol{
+    margin: auto;
+    display: block;
+    width:5%;
+}
+h1 {
+    border: 1px solid blue;
+    margin: 80px auto 60px auto;
+    padding: 0px;
+    width:300px;
+}

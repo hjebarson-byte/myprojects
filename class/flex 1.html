@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>flex 1</title>
+    <h1>Our Recent Blog</h1>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        
+        .code {
+            display: grid;
+            background-color: white;
+            grid-template-columns: auto auto auto;
+            justify-content:space-around;
+            /* padding: 120px; */
+
+        }
+        .flex {
+            display:flex;
+            /* flex-direction:column; */
+        }
+        .flex1{
+            display: flex;
+            /* flex-direction: column; */
+        }
+
+        .flex p,.flex1 p{
+        margin: 0;
+        padding:5px;
+        }
+        .flex i,.flex1 i{
+
+        padding:5px;
+        }
+        .folder-container{
+            display: flex;
+            padding: 10px;
+        }
+        .red{
+            /* border:1px solid black; */
+            padding:15px;
+            box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
+
+            /* box-shadow: 1px 1px 10px violet; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="code">
+
+
+        <div class="red">
+            <div><img src="./assets/images/bottles.jpg" alt="image"></div>
+            <div class="folder-container">
+                <div class="flex">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <p>calender</p></div>
+                <div class="flex1">
+                    <i class="fa-regular fa-folder"></i>
+                    <P>folder</P>
+                </div>
+            </div>
+           
+            <h2>Top 10 casual look ideas to dress up your kids</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quisquam, tenetur.</P>
+        </div>
+        <div class="red">
+            <div><img src="./assets/images/meat.jpg" alt="image 2"></div>
+            <div class="folder-container">
+            <div class="flex">
+            <i class="fa-regular fa-calendar-days"></i>
+            <p>calender</p></div>
+            <div class="flex1">
+            <i class="fa-regular fa-folder"></i>
+            <p>folder</p></div>
+            </div>
+            <h2>Latest trends of wearing street wears supremely</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Quia, voluptates.</p>
+        </div>
+        <div class="red">
+            <div><img src="./assets/images/vegetables.jpg" alt="image 3"></div>
+            <div class="folder-container">
+            <div class="flex">
+            <i class="fa-regular fa-calendar-days"></i>
+            <p>calender</p></div>
+            <div class="flex1">
+            <i class="fa-regular fa-folder"></i>
+            <p>folder</p></div>
+            </div>
+            <h2>10 Different Types of comfortable clothes ideas <br>for women</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Mollitia, eius.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
+

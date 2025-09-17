@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>test flex</title>
+    <style>
+
+        .full-page {
+            display: flex;
+            flex-direction: row;
+            padding: 170px;
+            justify-content: space-around;
+            justify-content: space-between;
+
+        }
+
+        .sub-profile {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .profile-head{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .first-div {
+            /* border: 1px solid black; */
+            padding: 20px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+        .profile-head h2{
+            margin:0;
+            padding:0;
+        }
+        .profile-head p{
+            margin:0;
+            padding:0;        
+            }
+            .buttons{
+                border:none;
+                color:white;
+                background-color:#008CBA;
+                font-size: 15px;
+                width:100px;
+                margin:20px;
+                padding: 10px;
+                }
+                img{
+                    padding:10px;
+                }
+    </style>
+</head>
+
+<body>
+    <div class="full-page">
+        <div class="first-div">
+            <div><img src="./assets/images/paint logo.jpg">
+                <p>
+            </div>
+            <div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet. ipsum dolor sit amet consectetur adipisicing elit. Veritatis error rerum
+                    in officia.</p>
+            </div>
+            <div>
+                <p>requested by:</p>
+            </div>
+            <div class="sub-profile">
+                <div>
+                    <div class="profile-head">
+                    <div>
+                        <img src="./assets/images/profile logo.jpg">
+                    </div>
+                    <div>
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
+                </div>
+                <div>
+                    <button class="buttons">JOIN</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="first-div">
+            <div><img src="./assets/images/paint logo.jpg"></div>
+            <div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet. ipsum dolor sit amet consectetur adipisicing elit. Veritatis error rerum
+                    in officia.</p>
+            </div>
+            <div>
+                <p>requested by:</p>
+            </div>
+            <div class="sub-profile">
+                <div class="profile-head">
+                <div>
+                    <img src="./assets/images/profile logo.jpg">
+                </div>
+                <div>
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                </div>
+                <div>
+                    <button class="buttons">JOIN</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

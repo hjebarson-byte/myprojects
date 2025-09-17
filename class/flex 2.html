@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>flex 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .full-page {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 250px;
+            text-align: center;
+            justify-content: space-around;
+
+        }
+
+        .first-image,
+        .second-image,
+        .third-image {
+            /* border: 1px solid black; */
+            padding: 50px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+        .sub_content {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="full-page">
+        <div class="first-image">
+            <div><img src="./assets/images/girl photo.jpg"></div>
+            <h2>Lorem, ipsum.</h2>
+            <p>chemistry</p>
+            <div class="sub_content">
+                <div>
+                    <b>
+                        <p> <i class="fa-solid fa-star"></i>5.0</p>
+                    </b>
+                </div>
+                <div>
+                    <b>
+                        <p>265 sessions</p>
+                    </b>
+                </div>
+            </div>
+        </div>
+        <div class="second-image">
+            <div><img src="./assets/images/girl photo.jpg"></div>
+            <h2>Lorem, ipsum.</h2>
+            <p>Organic chemistry</p>
+            <div class="sub_content">
+                <div>
+                    <b>
+                        <p> <i class="fa-solid fa-star"></i>5.0</p>
+                    </b>
+                </div>
+                <div>
+                    <b>
+                        <p>265 sessions</p>
+                    </b>
+                </div>
+            </div>
+
+        </div>
+        <div class="third-image">
+            <div><img src="./assets/images/girl photo.jpg"></div>
+            <h2>Lorem, ipsum.</h2>
+            <p>Inorganic chemistry</p>
+            <div class="sub_content">
+                <div>
+                    <b>
+                        <p> <i class="fa-solid fa-star"></i>5.0</p>
+                    </b>
+                </div>
+                <div>
+                    <b>
+                        <p>265 sessions</p>
+                    </b>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
