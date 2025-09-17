@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+
+public class demo4 {
+    public static void main(String [] args)
+    {
+        
+
+
+        Scanner scan = new Scanner(System.in);
+         System.out.println("Enter the first number");
+         int a = scan.nextInt();
+         System.out.println("Enter the second number");
+         int b = scan.nextInt();
+         
+
+        String result = a>b?a + " is greater than " + b:b + " is greater than " + a;
+
+        System.out.print(result);
+
+    }
+}
